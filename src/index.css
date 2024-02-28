@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* navbar */
+
+.mobileNavbar {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.mobileNavbar.openMenu {
+    max-height: 600px;
+}
+
+.blurNavbar {
+    background: #000000c7;
+}
+
+/* hero section button animation */
+
+@keyframes pulseAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.hover\:bg-black:hover {
+    animation: pulseAnimation 0.6s infinite;
+}
+
+#pricingCard .hover\:bg-black:hover {
+    animation: none;
+}
+
+.KeyRollCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.reviewContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.googlereviewcontainer,
+.pricingContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.workContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#pricingCard {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(0.95);
+    }
+}
+
+.pulse-animation:hover {
+    animation: pulse 1s infinite;
+}
+
+.list-disc::marker {
+    color: white;
+}
+
+#pricingCard .list-disc::marker {
+    color: black;
+}
