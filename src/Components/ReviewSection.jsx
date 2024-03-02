@@ -3,7 +3,7 @@ import { ReviewsDetail } from '../Data/Reviews'
 
 function ReviewSection() {
     return (
-        <div className='px-[3%] py-12 bg-green-500 text-white'>
+        <div className='px-[3%] py-12 pt-20 bg-green-500 text-white'>
             <h1 className='text-5xl text-center font-semibold'>Client Reviews</h1>
             <div className="reviewContainer mt-12">
                 {

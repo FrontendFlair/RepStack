@@ -81,14 +81,17 @@ function Navbar() {
                                     onMouseEnter={() => setIsHireDropdownOpen(true)}
                                     onMouseLeave={() => setIsHireDropdownOpen(false)}
                                 >
-                                    <Link to="/marketing-associate" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
-                                        Marketing Associates
+                                    <Link to="/web-development" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                        Web Development
                                     </Link>
-                                    <Link to="/sales-development" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
-                                        Sales Development Reps - Keep Your sales Cycle Rolling!
+                                    <Link to="/e-ccomerce" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                        E-commerce Services
                                     </Link>
-                                    <Link to="/account-manager" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
-                                        Account Managers
+                                    <Link to="/graphic-designing" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                        Graphic Designing
+                                    </Link>
+                                    <Link to="/video-editor" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                        Video Editing
                                     </Link>
                                 </div>
                             )}
@@ -124,14 +127,17 @@ function Navbar() {
                         </a>
                         {isHireDropdownOpen && (
                             <div className="top-full left-0 bg-black text-white shadow-lg">
-                                <Link to="/marketing-associate" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={() => { closeMobileMenu(); scrollToTop(); }}>
-                                    Marketing Associates
+                                <Link to="/web-development" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={() => { closeMobileMenu(); scrollToTop(); }}>
+                                    Web Development
                                 </Link>
-                                <Link to="/sales-development" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={() => { closeMobileMenu(); scrollToTop(); }}>
-                                    Sales Development Reps - Keep Your sales Cycle Rolling!
+                                <Link to="/e-ccomerce" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={() => { closeMobileMenu(); scrollToTop(); }}>
+                                    E-commerce Services
                                 </Link>
-                                <Link to="/account-manager" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={() => { closeMobileMenu(); scrollToTop(); }}>
-                                    Account Managers
+                                <Link to="/graphic-designing" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={() => { closeMobileMenu(); scrollToTop(); }}>
+                                    Graphic Designing
+                                </Link>
+                                <Link to="/video-editor" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={() => { closeMobileMenu(); scrollToTop(); }}>
+                                    Video Editing
                                 </Link>
                             </div>
                         )}

@@ -3,7 +3,7 @@ import Image from "../../src/assets/whyChoose.png"
 
 function WhyChooseSection() {
     return (
-        <div className='bg-[#f9f9f9] px-[5%] md:px-[7%] py-8'>
+        <div className='bg-[#f9f9f9] px-[5%] md:px-[7%] py-8 pt-20'>
             <div className="flex items-center justify-between flex-col-reverse md:flex-row gap-6">
                 {/* left section */}
                 <div className="w-full md:w-1/2 space-y-3 text-[#333]">
@@ -15,9 +15,10 @@ function WhyChooseSection() {
                     <p>Hire these key roles to move forward:</p>
 
                     <div className="flex items-center flex-wrap gap-2">
-                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/marketing-associate" className="">Marketing Associate</Link></div>
-                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/sales-development" className="">Sales Development Rep</Link></div>
-                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/account-manager" className="">Account Manager</Link></div>
+                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/web-development" className="">Web Development</Link></div>
+                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/e-ccomerce" className="">Eccomerce Services</Link></div>
+                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/graphic-designing" className="">Graphic Designer</Link></div>
+                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/video-editor" className="">Video Editing</Link></div>
                     </div>
 
                     <p>We provide a <span className='font-bold italic'>no-fuss hiring solution.</span> Get access to trained, effective professionals, ready to jump in and drive results. Skip the trial-and-error of hiring and start building a team that can take your agency to the next level.</p>

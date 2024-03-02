@@ -19,9 +19,10 @@ function PodcastSection() {
                     <h1 className='font-bold text-5xl md:text-6xl text-mainGreen pb-3 md:pb-8 leading-[55px] md:leading-[70px]'>Podcast With RepStack</h1>
                     <p className='font-semibold text-[17px]'>Hosted by Azhar Siddiqui, the co-founder at RepStack. Uncover the secrets of hiring, onboarding and training your Virtual Assistant as we share tips, tricks and success stories in our <span className='text-mainGreen font-bold'><Link to="/podcast">Podcasts</Link></span>. Discover how to unlock massive growth in your Digital Marketing Agency by hiring for these three key roles:</p>
                     <ul className='py-4'>
-                        <li className='list-disc ml-10 italic text-mainGreen font-semibold text-[18px] white-bullets'><Link to="/marketing-associate">Marketing Associates</Link></li>
-                        <li className='list-disc ml-10 italic text-mainGreen font-semibold text-[18px] white-bullets'><Link to="/sales-development">Sales Development Rep</Link></li>
-                        <li className='list-disc ml-10 italic text-mainGreen font-semibold text-[18px] white-bullets'><Link to="/account-manager">Account Managers</Link></li>
+                        <li className='list-disc ml-10 italic text-mainGreen font-semibold text-[18px] white-bullets'><Link to="/web-development">Web Development</Link></li>
+                        <li className='list-disc ml-10 italic text-mainGreen font-semibold text-[18px] white-bullets'><Link to="/e-ccomerce">E-commerce Services</Link></li>
+                        <li className='list-disc ml-10 italic text-mainGreen font-semibold text-[18px] white-bullets'><Link to="/graphic-designing">Graphic Designer</Link></li>
+                        <li className='list-disc ml-10 italic text-mainGreen font-semibold text-[18px] white-bullets'><Link to="/video-editor">Video Editing</Link></li>
                     </ul>
 
                     <button className='py-2 px-6 text-white bg-mainGreen rounded-full text-base font-bold hover:scale-105 transition-all duration-300'>Watch All Our Podcast Episodes</button>
