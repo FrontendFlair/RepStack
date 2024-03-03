@@ -42,6 +42,10 @@
     animation: none;
 }
 
+#simpleBtn .hover\:bg-black:hover {
+    animation: none;
+}
+
 .KeyRollCards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -70,8 +74,13 @@
     margin-top: 2rem;
 }
 
-#pricingCard {
+#pricingCard, .boxShadow {
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.skillCardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 
@@ -93,10 +102,6 @@
     animation: pulse 1s infinite;
 }
 
-.list-disc::marker {
+#podcast .list-disc::marker {
     color: white;
-}
-
-#pricingCard .list-disc::marker {
-    color: black;
 }

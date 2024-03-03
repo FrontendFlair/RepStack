@@ -1,9 +1,10 @@
 import React from 'react'
+import SkillHero from '../SkillPageComponents/SkillHero'
 
 function VideoEditing() {
   return (
     <div>
-      Video Editing
+      <SkillHero skillTitle="Video Editing" />
     </div>
   )
 }

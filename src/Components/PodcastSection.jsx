@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function PodcastSection() {
     return (
-        <div className='bg-[#181818] px-[5%] py-12'>
+        <div id='podcast' className='bg-[#181818] px-[5%] py-12'>
             <div className="flex items-center justify-between flex-col md:flex-row gap-12">
                 {/* left section */}
 
