@@ -81,6 +81,15 @@ function Navbar() {
                                     onMouseEnter={() => setIsHireDropdownOpen(true)}
                                     onMouseLeave={() => setIsHireDropdownOpen(false)}
                                 >
+                                    <Link to="/virtual-marketing-associate-services" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                        Marketing Associates
+                                    </Link>
+                                    <Link to="/virtual-sales-development-rep" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                        Sales Development Reps
+                                    </Link>
+                                    <Link to="/virtual-account-manager-services" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                        Account Managers
+                                    </Link>
                                     <Link to="/web-development" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
                                         Web Development
                                     </Link>
@@ -127,6 +136,15 @@ function Navbar() {
                         </a>
                         {isHireDropdownOpen && (
                             <div className="top-full left-0 bg-black text-white shadow-lg">
+                                <Link to="/virtual-marketing-associate-services" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                    Marketing Associates
+                                </Link>
+                                <Link to="/virtual-sales-development-rep" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                    Sales Development Reps
+                                </Link>
+                                <Link to="/virtual-account-manager-services" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={closeMobileMenu}>
+                                    Account Managers
+                                </Link>
                                 <Link to="/web-development" className="block hover:bg-mainGreen whitespace-nowrap py-3 px-6 transition-all duration-300" onClick={() => { closeMobileMenu(); scrollToTop(); }}>
                                     Web Development
                                 </Link>

@@ -6,7 +6,6 @@ import WebServiceCard from '../SkillPageComponents/WebServiceCard'
 function WebDevlopment() {
   return (
     <div>
-
       <SkillHero skillTitle="Web Development" />
       <SkillCardHeader />
       <WebServiceCard />

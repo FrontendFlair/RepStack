@@ -15,6 +15,9 @@ function WhyChooseSection() {
                     <p>Hire these key roles to move forward:</p>
 
                     <div className="flex items-center flex-wrap gap-2">
+                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/virtual-marketing-associate-services" className="">Marketing Associates</Link></div>
+                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/virtual-sales-development-rep" className=""> Sales Development Reps</Link></div>
+                        <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/virtual-account-manager-services" className=""> Account Managers</Link></div>
                         <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/web-development" className="">Web Development</Link></div>
                         <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/e-ccomerce" className="">Eccomerce Services</Link></div>
                         <div className='bg-mainGreen text-[16px] text-white text-center p-3 hover:bg-[#05a2c9] transition duration-300 pulse-animation'><Link to="/graphic-designing" className="">Graphic Designer</Link></div>

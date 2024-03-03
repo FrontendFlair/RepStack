@@ -5,8 +5,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Blog from './Pages/Blog'
 import Career from './Pages/Career'
 import Podcast from './Pages/Podcast'
-import SalesDevelopment from './Pages/Ecommerce'
-import AccountManager from './Pages/GraphicDesigning'
 import Home from './Pages/Home'
 import Footer from './Components/Footer'
 import Login from './Pages/Login'
@@ -15,6 +13,9 @@ import WebDevlopment from './Pages/WebDevelopment'
 import Ecommerce from './Pages/Ecommerce'
 import VideoEditing from './Pages/VideoEditing'
 import GraphicDesigning from './Pages/GraphicDesigning'
+import MarketingAssociates from './Pages/MarketingAssociates'
+import SalesDevelopmentReps from './Pages/SalesDevelopmentReps'
+import AccountManager from './Pages/AccountManager'
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/virtual-marketing-associate-services" element={<MarketingAssociates />} />
+        <Route path="/virtual-sales-development-rep" element={<SalesDevelopmentReps />} />
+        <Route path="/virtual-account-manager-services" element={<AccountManager />} />
         <Route path="/web-development" element={<WebDevlopment />} />
         <Route path="/e-ccomerce" element={<Ecommerce />} />
         <Route path="/graphic-designing" element={<GraphicDesigning />} />

@@ -1,14 +1,14 @@
-import GraphicDesigningSkill from "../SkillPageComponents/GraphicDesigningSkill"
+import SalesDevelopmentSkill from "../SkillPageComponents/SalesDevelopmentSkill"
 import SkillCardHeader from "../SkillPageComponents/SkillCardHeader"
 import SkillHero from "../SkillPageComponents/SkillHero"
 import SkillSectionBtn from "../SkillPageComponents/SkillSectionBtn"
 
-function GraphicDesigning() {
+function SalesDevelopmentReps() {
   return (
     <div>
-      <SkillHero skillTitle="Graphic Designing" />
+      <SkillHero skillTitle="Sales Development Reps"/>
       <SkillCardHeader />
-      <GraphicDesigningSkill />
+      <SalesDevelopmentSkill />
       <div className="flex items-center justify-center mb-16">
         <SkillSectionBtn btnText="Book a Strategy Session" />
       </div>
@@ -16,4 +16,4 @@ function GraphicDesigning() {
   )
 }
 
-export default GraphicDesigning
+export default SalesDevelopmentReps
